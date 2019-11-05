@@ -88,8 +88,6 @@ public class MainActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.info) {
             Intent infoIntent = new Intent(MainActivity.this, InfoActivity.class);
             startActivity(infoIntent);
-
-            return true;
         }
         return super.onOptionsItemSelected(item);
     }
